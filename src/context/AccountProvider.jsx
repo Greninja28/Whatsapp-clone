@@ -10,7 +10,7 @@ const AccountProvider = ({ children }) => {
   const socket = useRef()
 
   useEffect(() => {
-    socket.current = io('ws://whatsapp-socket-fysi')
+    socket.current = io('https://whatsapp-socket-fysi.onrender.com')
   }, [])
 
   return (
