@@ -66,7 +66,7 @@ const People = ({ user }) => {
           }
         </Container>
         <Box>
-          <Text>{message?.text?.includes('localhost') ? 'media' : message.text}</Text>
+          <Text>{message?.text?.includes('whatsapp-api-88n1.onrender') ? 'media' : message.text}</Text>
         </Box>
       </Box>
 
